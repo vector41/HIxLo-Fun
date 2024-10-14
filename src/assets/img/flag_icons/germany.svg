@@ -1,0 +1,27 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient x1="-.008%" y1="29.136%" x2="76.231%" y2="54.099%" id="tqoc5mqota">
+            <stop stop-color="#FEDE00" offset="0%"/>
+            <stop stop-color="#FFD000" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="24.98%" y1="46.299%" x2="100.625%" y2="71.067%" id="k27e2f6c9b">
+            <stop stop-color="#636363" offset="0%"/>
+            <stop stop-color="#3B3B3B" offset="99.8%"/>
+        </linearGradient>
+        <linearGradient x1="15.943%" y1="36.377%" x2="86.442%" y2="64.577%" id="yhm3177jic">
+            <stop stop-color="#DFE9F2" offset="0%"/>
+            <stop stop-color="#9EA7B0" offset="99.8%"/>
+        </linearGradient>
+        <linearGradient x1="15.023%" y1="36.009%" x2="85.478%" y2="64.191%" id="dxwp2mh3sd">
+            <stop stop-color="#F44F5A" offset="0%"/>
+            <stop stop-color="#EE3D4A" offset="44.3%"/>
+            <stop stop-color="#E52030" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <g fill-rule="nonzero" fill="none">
+        <path d="M16 32c6.56 0 12.19-3.951 14.66-9.6H1.34C3.81 28.049 9.44 32 16 32z" fill="url(#tqoc5mqota)"/>
+        <path d="M16 0C9.44 0 3.81 3.951 1.34 9.6h29.32C28.19 3.951 22.56 0 16 0z" fill="url(#k27e2f6c9b)"/>
+        <path d="M30.66 9.6H1.34A15.929 15.929 0 0 0 0 16c0 2.277.483 4.44 1.34 6.4h29.32a15.942 15.942 0 0 0 0-12.8z" fill="url(#yhm3177jic)"/>
+        <path d="M30.66 9.6H1.34A15.929 15.929 0 0 0 0 16c0 2.277.483 4.44 1.34 6.4h29.32a15.942 15.942 0 0 0 0-12.8z" fill="url(#dxwp2mh3sd)"/>
+    </g>
+</svg>

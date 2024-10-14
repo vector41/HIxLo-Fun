@@ -1,0 +1,576 @@
+/* Mobile State */
+
+.trade_page .mobile_logo {
+    display: none;
+}
+
+.trade_page .mobile_logo img {
+    width: 6em;
+}
+
+.trade_page .mobile_prize img {
+    width: 6em;
+}
+
+.trade_page .mobile_prize {
+    display: none;
+}
+
+/* .trade_page .mobile_contents {
+    display: none !important;
+} */
+
+/* ===================== */
+
+.bottom-fixed {
+    position: absolute;
+    bottom: 4em;
+}
+
+/* ===================== */
+
+@media only screen and (max-width: 640px) {
+    /* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: transparent;
+        border-radius: 9999px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #5f15d3;
+    }
+
+    #page_content {
+        background-position: center top;
+    }
+
+    /*
+         Mobile Nav 
+    */
+    .trade_page .header .balance_box {
+        width: 35em;
+    }
+
+    div.site_logo {
+        display: none !important;
+    }
+
+    div.mobile_logo {
+        display: flex !important;
+    }
+
+    .trade_page .header .balance_box .balance_refresh {
+        width: 3.8em;
+        height: 3.8em;
+    }
+
+    .trade_page .header .balance_box .balance_result {
+        width: 2.8em;
+        height: 2.8em;
+    }
+
+    .trade_page .header .balance_box .balance_start {
+        width: 4.8em;
+        height: 4.8em;
+    }
+
+    .trade_page .header .balance_box span.balance_number {
+        font-size: 4em;
+    }
+
+    div.mobile_prize {
+        display: flex !important;
+    }
+
+    a.header_leftbtn {
+        display: none !important;
+    }
+
+    div.header_rightbtn {
+        display: none !important;
+    }
+
+    .trade_page .header .balance_box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .trade_page .header .right_group .user_avatar {
+        width: 6.3em;
+        height: 6.3em;
+        margin-left: -1.5em;
+    }
+
+    .trade_page .header .right_group .user_avatar img {
+        width: 6.3em;
+        height: 6.3em;
+    }
+
+    .trade_page .header .right_group .menu_btn img {
+        width: 5.3em;
+        height: 5.3em;
+    }
+
+    /* --------------------- */
+
+    /*
+        Site Content Hidden & Mobile Content Append
+    */
+
+    .trade_page .contents {
+        display: none !important;
+    }
+
+    .trade_page .mobile_contents {
+        /* display: block !important; */
+        /* padding: 1em 1em 1em; */
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        /* height: calc(100dvh - 10em); */
+        background-color: rgba(48, 4, 117, 0.7);
+        position: relative;
+    }
+
+    .trade_page .mobile_contents .pool_label_1 {
+        display: flex;
+        color: white;
+        margin-top: 1em;
+        height: 4em;
+    }
+
+    .trade_page .mobile_contents .pool_label_1 .m_left {
+        margin-right: auto;
+        font-size: 3em;
+
+        font-weight: 'thin';
+        opacity: 0.7;
+    }
+
+    .trade_page .mobile_contents .pool_label_1 .m_right {
+        margin-left: auto;
+        font-size: 3em;
+
+        font-weight: 'thin';
+        opacity: 0.7;
+    }
+
+    .trade_page .mobile_contents .pool_label_2 .m_left {
+        margin-right: auto;
+        font-size: 3em;
+    }
+
+    .trade_page .mobile_contents .pool_label_2 {
+        display: flex;
+        height: 7em;
+    }
+
+    .trade_page .mobile_contents .pool_label_2 .m_left {
+        color: #02ed8e;
+        margin-right: auto;
+        font-size: 5em;
+
+        font-weight: 800;
+    }
+
+    .trade_page .mobile_contents .pool_label_2 .m_right {
+        color: #ff685a;
+        margin-left: auto;
+        font-size: 5em;
+
+        font-weight: 800;
+    }
+
+    .trade_page .mobile_contents .pool_label_3 {
+        display: flex;
+        height: 7em;
+    }
+
+    .trade_page .mobile_contents .pool_label_3 .m_left {
+        color: #02ed8e;
+        margin-right: auto;
+        font-size: 5em;
+
+        font-weight: 600;
+    }
+
+    .trade_page .mobile_contents .pool_label_3 .m_right {
+        color: #ff685a;
+        margin-left: auto;
+        font-size: 5em;
+
+        font-weight: 600;
+    }
+
+    /* ------------------- */
+
+    .mobile_contents .clock {
+        display: flex;
+        justify-content: center;
+        height: 5em;
+    }
+
+    .mobile_contents .btc img {
+        width: 30em;
+        height: 30em;
+    }
+
+    .mobile_contents .btc {
+        /* display: flex; */
+        left: calc(50% - 15em);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobile_contents .clock {
+        display: flex;
+        justify-content: center;
+    }
+
+    .mobile_contents .chart {
+        /* margin-top: -30em; */
+        height: calc(100% - 60em);
+    }
+
+    .mobile_contents .clock img {
+        width: 25em;
+        height: 25em;
+        margin-top: -20em;
+    }
+
+    .mobile_contents .chart img {
+        width: 73em;
+        height: 65em;
+    }
+
+    .mobile_contents .results {
+        display: flex;
+        align-items: center;
+        align-self: center;
+        height: 13em;
+    }
+
+    .mobile_contents .results .jacket {
+        display: block;
+        border-radius: 5px;
+        margin-right: 1em;
+        margin-top: 0.5em;
+    }
+
+    .mobile_contents .results .jacket .jacket_label {
+        display: flex;
+        /* align-self: center; */
+
+        height: 1.6em;
+        background-color: #551ab6;
+        color: #ffff;
+        font-weight: lighter;
+        opacity: 0.8;
+        align-items: center;
+        border-radius: 0.3em 0.3em 0 0;
+        font-size: 3.2em;
+        padding-top: 0.1em;
+        padding-bottom: 0.1em;
+        padding-left: 0.3em;
+    }
+
+    .mobile_contents .results .jacket .jacket_label img {
+        width: 1.8em;
+        height: 1.8em;
+        margin-top: -0.5em;
+        /* margin-left: -0.1em; */
+    }
+
+    .mobile_contents .results .jacket .jacket_number {
+        color: white;
+        background: linear-gradient(92.7deg, #0064fb 6.15%, #1ecdf8 97.44%);
+    }
+
+    .mobile_contents .results .win {
+        display: flex;
+    }
+
+    .mobile_contents .results .win .m_left {
+        color: #ffffffa3;
+        font-family: sans-serif;
+        font-size: 1.95em;
+        margin-right: auto;
+        opacity: 0.7;
+    }
+
+    .mobile_contents .results .win .m_right {
+        color: #ffffffa3;
+        font-family: sans-serif;
+        font-size: 1.95em;
+        margin-left: auto;
+        opacity: 0.7;
+        margin-right: 9.55em;
+    }
+
+    .mobile_contents .results .ratio {
+        display: flex;
+        width: 96%;
+    }
+
+    .mobile_contents .results .ratio .m_left {
+        color: white;
+
+        font-size: 2.5em;
+        margin-right: auto;
+    }
+
+    .mobile_contents .results .ratio .m_left .opt-1 {
+        margin-left: 0.5em;
+    }
+
+    .mobile_contents .results .ratio .m_left .opt {
+        opacity: 0.7;
+        font-family: sans-serif;
+        font-size: 0.85em;
+        color: #ffffffa3;
+    }
+
+    .mobile_contents .results .ratio .m_right .opt {
+        opacity: 0.7;
+        font-family: sans-serif;
+        font-size: 0.85em;
+        color: #ffffffa3;
+    }
+
+    .mobile_contents .results .rocket_btn {
+        display: flex;
+        width: 100%;
+    }
+
+    .mobile_contents .results .each_btn {
+        width: 15.3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: inherit;
+        border-radius: 4px;
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
+        margin-right: 0.6em;
+        border: 1px solid #dddd;
+    }
+
+    .mobile_contents .results .each_btn.resume img {
+        width: 2.5em;
+        height: 2.5em;
+    }
+
+    .mobile_contents .results .each_btn img {
+        width: 3.5em;
+        height: 3.5em;
+    }
+
+    .mobile_contents .results .each_btn.down {
+        border: 1px solid #ff5d4f;
+    }
+
+    .mobile_contents .results .each_btn.up {
+        border: 1px solid #00bb5c;
+    }
+
+    .mobile_contents .results .ratio .m_right .opt-1 {
+        margin-left: 1.2em;
+        margin-right: 0.4em;
+        display: flex;
+        align-items: center;
+    }
+
+    .mobile_contents .results .ratio .m_right {
+        color: white;
+
+        font-size: 2.5em;
+        margin-left: auto;
+        display: flex;
+    }
+
+    .mobile_contents .results .ratio .m_right img {
+        width: 0.7em;
+        height: 0.7em;
+        margin-right: 0.2em;
+    }
+
+    .mobile_contents .results .rocket_btn {
+        display: flex;
+    }
+
+    .mobile_contents .pool {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+        height: 5em;
+        align-items: center;
+    }
+
+    .mobile_contents .pool .text_white {
+        font-size: 2.5em;
+        color: white;
+        font-weight: 400;
+        align-self: center;
+    }
+
+    .mobile_contents .pool .text_green {
+        font-size: 3.5em;
+        color: #02ed8e;
+    }
+
+    .mobile_contents .pool .text_red {
+        font-size: 3.5em;
+        color: #ff5d4f;
+    }
+
+    .mobile_contents .players {
+        display: flex;
+        width: 100%;
+        position: relative;
+        height: auto;
+    }
+
+    .mobile_contents .players .up_players {
+        /* display: flex; */
+        /* width: 45%; */
+        flex-wrap: wrap;
+        margin-right: auto;
+    }
+
+    .mobile_contents .players .up_players img {
+        border: 0.4em solid #00bb5c !important;
+        border-radius: 18%;
+    }
+
+    .mobile_contents .center_btn {
+        border: 1px solid #ddd;
+        padding: 2.5em 2.5em;
+        position: relative;
+        /* position: absolute; */
+        /* left: 50%; */
+        /* top: 25%; */
+        /* transform: translateX(-50%); */
+        border-radius: 6px;
+        opacity: 0.7;
+    }
+
+    .mobile_contents .center_btn .line {
+        color: white;
+    }
+
+    .line::after {
+        position: absolute;
+        content: '-';
+        font-size: 6.8em;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -55%);
+    }
+
+    .mobile_contents .players .down_players {
+        flex-wrap: wrap;
+        margin-left: auto;
+        flex-direction: row-reverse;
+    }
+
+    .mobile_contents .players .down_players img {
+        border: 0.4em solid #ff685a !important;
+        border-radius: 18%;
+    }
+
+    .mobile_contents .attend_number {
+        display: flex;
+        width: 100%;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    .attend_btn:first-child {
+        margin-left: 0em !important;
+    }
+
+    .mobile_contents .attend_number .attend_btn {
+        color: white;
+        border: 1px solid #ffff;
+
+        text-align: center;
+        padding: 0.1em 0em;
+        border-radius: 6px;
+        font-size: 4em;
+        font-weight: 600;
+        flex: 1 1 0%;
+    }
+
+    .mobile_contents .attend_number .attend_btn:active {
+        background: linear-gradient(92.7deg, #0064fb 6.15%, #1ecdf8 97.44%),
+            linear-gradient(0deg, #000000, #000000);
+        border: none;
+    }
+
+    .mobile_contents .attend_number .attend_btn_active {
+        background: linear-gradient(92.7deg, #0064fb 6.15%, #1ecdf8 97.44%),
+            linear-gradient(0deg, #000000, #000000);
+        border: none;
+    }
+
+    .mobile_contents .betting_btn {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        height: 14em;
+        gap: 2em;
+    }
+
+    .mobile_contents .betting_btn div:active {
+        border: #fff solid 0.4em;
+        border-radius: 3.6em;
+        box-shadow: none;
+        /* background: linear-gradient(90deg, #02ED8E 0%, #00DD7B 50%, #00BB5C 100%), linear-gradient(0deg, #263282, #263282); */
+        opacity: 0.6;
+    }
+
+    @keyframes example2 {
+        0% {
+            width: 100%;
+            margin-top: 1.5em;
+            font-size: 2em;
+        }
+
+        75% {
+            width: 100%;
+            margin-top: 1.5em;
+            font-size: 2em;
+        }
+
+        100% {
+            width: 40%;
+            margin-top: 0;
+            /* justify-content: left; */
+        }
+    }
+
+    .mobile_contents .market_md_label {
+        font-size: 1.5em;
+    }
+
+    .mobile_contents .test {
+        animation-name: example2;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+    }
+}

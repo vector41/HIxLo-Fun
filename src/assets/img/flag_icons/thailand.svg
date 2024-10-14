@@ -1,0 +1,22 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient x1="37.94%" y1="20.59%" x2="63.311%" y2="82.457%" id="7p0x43y2ca">
+            <stop stop-color="#F44F5A" offset=".8%"/>
+            <stop stop-color="#EE3D4A" offset="44.7%"/>
+            <stop stop-color="#E52030" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="40.022%" y1="35.052%" x2="84.692%" y2="101.977%" id="eau0cjfcbb">
+            <stop stop-color="#DFE9F2" offset="0%"/>
+            <stop stop-color="#9EA7B0" offset="99.8%"/>
+        </linearGradient>
+        <linearGradient x1="29.02%" y1="38.326%" x2="82.263%" y2="67.952%" id="xegg7psp6c">
+            <stop stop-color="#0D61A9" offset="0%"/>
+            <stop stop-color="#16528C" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <g fill-rule="nonzero" fill="none">
+        <path d="M16 0C11.526 0 7.486 1.84 4.583 4.8h22.835A15.948 15.948 0 0 0 16 0zm11.417 27.2H4.583A15.944 15.944 0 0 0 16 32c4.474 0 8.514-1.84 11.417-4.8z" fill="url(#7p0x43y2ca)"/>
+        <path d="M30.973 21.6H1.027a15.992 15.992 0 0 0 3.555 5.6h22.835a15.994 15.994 0 0 0 3.556-5.6zM27.417 4.8H4.583a15.992 15.992 0 0 0-3.555 5.6h29.945a15.994 15.994 0 0 0-3.556-5.6z" fill="url(#eau0cjfcbb)"/>
+        <path d="M32 16a15.94 15.94 0 0 0-1.027-5.6H1.027A15.94 15.94 0 0 0 0 16c0 1.974.374 3.854 1.027 5.6h29.945A15.922 15.922 0 0 0 32 16z" fill="url(#xegg7psp6c)"/>
+    </g>
+</svg>

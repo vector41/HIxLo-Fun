@@ -1,0 +1,38 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient x1="15.943%" y1="15.943%" x2="86.442%" y2="86.442%" id="e6mxfsszsa">
+            <stop stop-color="#DFE9F2" offset="0%"/>
+            <stop stop-color="#9EA7B0" offset="99.8%"/>
+        </linearGradient>
+        <linearGradient x1="28.705%" y1="28.705%" x2="169.635%" y2="169.635%" id="nybki25i7b">
+            <stop stop-color="#0D61A9" offset="0%"/>
+            <stop stop-color="#16528C" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="13.382%" y1="22.084%" x2="86.615%" y2="88.663%" id="hduo60m55c">
+            <stop stop-color="#DB3542" offset="0%"/>
+            <stop stop-color="#BA0B1A" offset="99.6%"/>
+        </linearGradient>
+    </defs>
+    <g fill-rule="nonzero" fill="none">
+        <path d="M32 16c0 8.836-7.164 16-16 16S0 24.836 0 16 7.164 0 16 0s16 7.164 16 16z" fill="url(#e6mxfsszsa)"/>
+        <path d="M16 0C7.164 0 0 7.164 0 16h16V0z" fill="url(#nybki25i7b)"/>
+        <circle fill="#99F0FF" cx="13.6" cy="13.6" r="1"/>
+        <circle fill="#99F0FF" cx="10.4" cy="13.6" r="1"/>
+        <circle fill="#99F0FF" cx="7.2" cy="13.6" r="1"/>
+        <circle fill="#99F0FF" cx="4" cy="13.6" r="1"/>
+        <circle fill="#99F0FF" cx="12" cy="10.4" r="1"/>
+        <circle fill="#99F0FF" cx="8.8" cy="10.4" r="1"/>
+        <circle fill="#99F0FF" cx="5.6" cy="10.4" r="1"/>
+        <circle fill="#99F0FF" cx="2.4" cy="10.4" r="1"/>
+        <circle fill="#99F0FF" cx="13.6" cy="7.2" r="1"/>
+        <circle fill="#99F0FF" cx="10.4" cy="7.2" r="1"/>
+        <circle fill="#99F0FF" cx="7.2" cy="7.2" r="1"/>
+        <circle fill="#99F0FF" cx="13.6" cy=".8" r="1"/>
+        <path d="M10.4 1.6a.8.8 0 0 0 .8-.8c0-.022-.01-.04-.012-.06-.485.152-.96.325-1.424.522.146.2.37.338.636.338z" fill="#99F0FF"/>
+        <circle fill="#99F0FF" cx="4" cy="7.2" r="1"/>
+        <circle fill="#99F0FF" cx="12" cy="4" r="1"/>
+        <circle fill="#99F0FF" cx="8.8" cy="4" r="1"/>
+        <path d="M5.6 4.8a.793.793 0 0 0 .54-1.383c-.413.324-.809.665-1.187 1.028.144.21.373.355.647.355zM.8 14.4a.8.8 0 0 0 0-1.6.786.786 0 0 0-.509.196c-.064.337-.113.68-.156 1.023.142.223.38.381.665.381z" fill="#99F0FF"/>
+        <path d="M32 16H16v-3.2h15.678c.21 1.034.322 2.104.322 3.2zM6.43 28.8h19.14a16.058 16.058 0 0 0 3.208-3.2H3.222a16.058 16.058 0 0 0 3.208 3.2zM16 0v3.2h9.57C22.9 1.2 19.594 0 16 0zm12.778 6.4H16v3.2h14.66a15.913 15.913 0 0 0-1.882-3.2zM1.34 22.4H30.66a15.86 15.86 0 0 0 1.02-3.2H.321a15.86 15.86 0 0 0 1.019 3.2z" fill="url(#hduo60m55c)"/>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient x1="47.658%" y1="37.655%" x2="64.118%" y2="124.4%" id="cmwyg1dlka">
+            <stop stop-color="#DFE9F2" offset="0%"/>
+            <stop stop-color="#9EA7B0" offset="99.8%"/>
+        </linearGradient>
+        <linearGradient x1="49.775%" y1="29.063%" x2="61.214%" y2="104.921%" id="lq2jretymb">
+            <stop stop-color="#0D61A9" offset="0%"/>
+            <stop stop-color="#16528C" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="44.022%" y1="23.288%" x2="56.648%" y2="122.481%" id="7kmfak0mhc">
+            <stop stop-color="#F44F5A" offset=".8%"/>
+            <stop stop-color="#EE3D4A" offset="44.7%"/>
+            <stop stop-color="#E52030" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <g fill-rule="nonzero" fill="none">
+        <path d="M16 32a15.94 15.94 0 0 0 5.6-1.027V1.027A15.94 15.94 0 0 0 16 0a15.94 15.94 0 0 0-5.6 1.027v29.945A15.922 15.922 0 0 0 16 32z" fill="url(#cmwyg1dlka)"/>
+        <path d="M10.4 30.973V1.027C4.33 3.3 0 9.137 0 16c0 6.863 4.33 12.7 10.4 14.973z" fill="url(#lq2jretymb)"/>
+        <path d="M32 16c0-6.863-4.33-12.7-10.4-14.973v29.945C27.67 28.7 32 22.863 32 16z" fill="url(#7kmfak0mhc)"/>
+    </g>
+</svg>

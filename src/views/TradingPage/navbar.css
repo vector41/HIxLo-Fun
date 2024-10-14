@@ -1,0 +1,229 @@
+/* ------------Header--------------------- */
+
+.header {
+    box-shadow: 0px 7px 20px 0px #0000004d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em;
+    position: relative;
+    background: rgba(37, 5, 93, 0.97);
+}
+
+.page.trade_page {
+    background-color: rgba(48, 4, 117, 0.6);
+    min-height: 100vh;
+}
+/* -------------------------------------- */
+
+/* ---------------Logo-------------------- */
+
+/* ---------------------------------- */
+
+/* --------------Nav Left-------------------- */
+
+.header_leftbtn {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.header_leftbtn div {
+    background-image: url(../../assets/img/header_leftbtn.svg);
+    background-size: 100% 100%;
+    margin-right: -1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-family: 'Barlow Semi Condensed';
+    font-weight: bold;
+    height: 2.4em;
+    width: 7em;
+    line-height: 1.875em;
+    text-align: center;
+    box-sizing: border-box;
+    transition: all 0.2s;
+    color: #f4d56f;
+    opacity: 1;
+    text-shadow:
+        0 1px 3px rgba(0, 0, 0, 0.5),
+        0 0 1px rgba(0, 0, 0, 0.5),
+        0 0 1px rgba(0, 0, 0, 0.5),
+        0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.header_leftbtn div:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+/* -------------------------------------------- */
+
+/* ---------------Nav Center------------------- */
+
+.trade_page .header .balance_box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../assets/img/balance_box.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-position: -0.1em -0.2em; */
+    width: 23.7em;
+    position: relative;
+}
+
+.trade_page .header .balance_box .balance_refresh {
+    cursor: pointer;
+}
+
+.trade_page .header .balance_box .balance_refresh:hover {
+    opacity: 0.7;
+}
+
+.trade_page .header .balance_box .balance_result {
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    width: 1rem;
+    height: 1rem;
+    width: 2.3em;
+    height: 2.3em;
+}
+
+.trade_page .header .balance_box span.balance_number {
+    color: white;
+
+    font-size: 3em;
+    font-weight: 400;
+    line-height: 4em;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.trade_page .header .balance_box .balance_start {
+    margin-right: 0.2em;
+    margin-left: 1.5em;
+    width: 2.3em;
+    height: 2.3em;
+    cursor: pointer;
+}
+
+.trade_page .header .balance_box .balance_start:hover {
+    opacity: 0.7;
+}
+
+/* --------------------------------------------- */
+
+/* ---------------Nav Right-------------------- */
+
+.header_rightbtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+}
+
+.header_rightbtn div {
+    background-image: url(../../assets/img/header_rightbtn.svg);
+    background-size: 100% 100%;
+    margin-left: -1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 7em;
+    height: 2.4em;
+    line-height: 1.875em;
+    text-align: center;
+    box-sizing: border-box;
+    transition: all 0.2s;
+    color: #000;
+    cursor: pointer;
+}
+
+.header_rightbtn div:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.trade_page .header .right_group {
+    min-width: 14.6em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: 0.5em;
+}
+
+@media (max-width: 600px) {
+    .trade_page .header .right_group {
+        min-width: 20em;
+    }
+}
+
+.toggle_chat {
+    width: 3.8em;
+    height: 2.9em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trade_page .header .right_group .toggle_chat img {
+    /* width: 2.8em; */
+    height: 2.8em;
+}
+
+.toggle_chat:hover {
+    scale: 1.02;
+    opacity: 0.9;
+}
+
+.trade_page .header .right_group .user_avatar:hover {
+    opacity: 0.7;
+}
+
+.trade_page .header .right_group .user_avatar {
+    display: block;
+    width: 3.3em;
+    height: 3.3em;
+    border: solid 0.2em #0064fb;
+    border-radius: 15%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.trade_page .header .right_group .user_avatar img {
+    width: 3.3em;
+    height: 3.3em;
+}
+
+.trade_page .header .right_group .menu_btn:hover {
+    opacity: 0.5;
+}
+.trade_page .header .right_group .menu_btn {
+    border: none;
+    background: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    font-size: inherit;
+}
+
+.trade_page .header .right_group .menu_btn img {
+    width: 2em;
+    height: 2em;
+}
+
+/* ------------------------------------------------- */

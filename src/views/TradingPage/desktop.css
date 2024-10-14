@@ -1,0 +1,1221 @@
+.trade_page .contents {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 1em 0.8em 0.8em;
+    box-sizing: border-box;
+    width: 100%;
+    height: calc(100dvh - 4.8em);
+}
+
+.header_pools_details,
+.pools_return_wrap,
+.trade_btns_mobile,
+.graph_asset_mobile {
+    display: none;
+}
+
+.trade_page .contents .pool_side {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.trade_page .contents .pool_side.up .pool {
+    overflow: hidden;
+    box-shadow: 0px 6px 16px 0px rgba(0, 3, 18, 0.5);
+    background-color: rgba(5, 13, 63, 0.6);
+}
+
+.trade_page .contents .pool_side .pool {
+    border-radius: 0.8em;
+    height: calc(100% - 3em);
+    position: relative;
+}
+
+.trade_page .contents .pool_side.up .pool .pool_header {
+    border-top: solid 0.2em rgba(38, 50, 130, 1);
+    background: linear-gradient(90deg, #02ed8e 0%, #00dd7b 50%, #00bb5c 100%),
+        linear-gradient(0deg, #263282, #263282);
+}
+
+.trade_page .contents .pool_side.down .pool .pool_header {
+    border-top: solid 0.2em rgba(38, 50, 130, 1);
+    background: #ff7265;
+}
+
+.trade_page .contents .pool_side .pool .pool_header {
+    border-radius: 0.65em 0.65em 0 0;
+    /* padding: 1.15em 0.7em 0 0.2em; */
+    margin: -0.1em -0.1em 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+}
+
+.trade_page .contents .pool_side.up .pool .pool_header .player_num {
+    color: rgb(4, 10, 47);
+
+    text-align: right;
+    right: 3%;
+    top: 39%;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.trade_page .contents .pool_side.up .pool .pool_header .player_num .det_title {
+    left: 0;
+    transform-origin: 0% 0%;
+}
+
+.trade_page
+    .contents
+    .pool_side
+    .pool
+    .pool_header
+    .pool_size
+    .amount
+    .icon-matic {
+    display: inline-block;
+    position: relative;
+    /* height: 0.4em; */
+}
+
+.trade_page
+    .contents
+    .pool_side
+    .pool
+    .pool_header
+    .pool_size
+    .amount
+    .icon-matic
+    .content_result {
+    width: 0.6em;
+    height: 0.6em;
+    /* margin-right: 0.2em; */
+}
+
+.trade_page .contents .pool_side .pool .pool_header .det_title {
+    position: absolute;
+
+    font-size: 0.9em;
+    line-height: 0.25em;
+    top: -0.1em;
+    width: 200%;
+    transform: scale(0.5);
+}
+
+.trade_page .contents .pool_side .pool .pool_header .player_num,
+.trade_page .contents .pool_side .pool .pool_header .payout {
+    font-size: 1.2em;
+    line-height: 1.3em;
+    font-weight: 600;
+    width: 22%;
+    transform: translate(0, 0.07em);
+    position: absolute;
+    top: 0.4em;
+}
+
+.trade_page .contents .pool_side .pool .pool_header .up {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: -1em;
+}
+
+.trade_page .contents .pool_side .pool .pool_header .pool_size .amount {
+    font-size: 3.2em;
+
+    font-weight: 600;
+    line-height: 1.1em;
+    width: 15vw;
+    transition: all 0.2s;
+}
+
+.trade_page
+    .contents
+    .pool_side
+    .pool
+    .players
+    .scroll
+    .player_position
+    .country
+    .left {
+    width: 100%;
+    height: 100%;
+    border-radius: 20%;
+    box-shadow: 0 0 0 0.1em rgba(0, 213, 116, 1);
+}
+.trade_page
+    .contents
+    .pool_side
+    .pool
+    .players
+    .scroll
+    .player_position
+    .country
+    .right {
+    width: 100%;
+    height: 100%;
+    border-radius: 20%;
+    box-shadow: 0 0 0 0.1em rgb(255 114 101);
+}
+
+.trade_page
+    .contents
+    .pool_side
+    .pool
+    .players
+    .scroll
+    .player_position
+    .invest
+    .small_bet_icon {
+    width: 0.8em;
+    height: 0.8em;
+    margin-right: 0.2em;
+}
+
+/* ------------------- Content Center------------------------------------------------------------------ */
+
+/* ================= Up  ========= */
+
+.trade_page .contents .pool_side .pool .players {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: calc(100% - 4.7em);
+}
+
+.trade_page .contents .pool_side.down .pool .pool_header .player_num {
+    color: rgb(4, 10, 47);
+
+    text-align: right;
+    right: 3%;
+    top: 58%;
+    font-size: 1.3em;
+}
+
+.trade_page
+    .contents
+    .pool_side.down
+    .pool
+    .pool_header
+    .player_num
+    .det_title {
+    left: 0;
+    transform-origin: 0% 0%;
+}
+
+.trade_page .contents .pool_side .pool .players::-webkit-scrollbar {
+    width: 9px;
+}
+
+.trade_page .contents .pool_side .pool .players::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    border: 2px solid #02ed8e;
+    background: linear-gradient(90deg, #02ed8e 0%, #00dd7b 50%, #00bb5c 100%),
+        linear-gradient(0deg, #263282, #263282);
+}
+
+.trade_page .contents .pool_side .pool .players .scroll {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.6em 0.3em;
+}
+
+.trade_page
+    .contents
+    .pool_side.up
+    .pool
+    .players
+    .player_position
+    .user_avatar {
+    box-shadow: 0 0 0 0.15em rgba(0, 213, 116, 1);
+}
+
+.trade_page
+    .contents
+    .pool_side.down
+    .pool
+    .players
+    .player_position
+    .user_avatar {
+    box-shadow: 0 0 0 0.15em #ff7265;
+}
+
+.trade_page
+    .contents
+    .pool_side
+    .pool
+    .players
+    .scroll
+    .player_position
+    .user_avatar {
+    width: 2.7em;
+    height: 2.7em;
+    border-radius: 15%;
+}
+
+.trade_page .contents .pool_side .pool .players .scroll .player_position {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32.5%;
+    padding: 0.9vh 0;
+    backface-visibility: visible !important;
+    /* animation: super-flip 0.9s ease; */
+}
+
+.trade_page .contents .pool_side .trade_btn {
+    height: 3.8em;
+    width: 100%;
+    border-radius: 0.9em;
+    background: linear-gradient(90deg, #02ed8e 0%, #00dd7b 50%, #00bb5c 100%),
+        linear-gradient(0deg, #263282, #263282);
+    margin-top: 0.8em;
+    box-shadow: 0 0.2em 0 #212121;
+    position: relative;
+    cursor: pointer;
+}
+
+.trade_page .contents .pool_side .trade_btn:enabled:active {
+    border: #fff solid 0.1em;
+    box-shadow: none;
+    /* background: linear-gradient(90deg, #02ED8E 0%, #00DD7B 50%, #00BB5C 100%), linear-gradient(0deg, #263282, #263282); */
+    opacity: 0.8;
+}
+
+.trade_page
+    .contents
+    .pool_side
+    .pool
+    .players
+    .scroll
+    .player_position
+    .country {
+    position: absolute;
+    top: 0.2em;
+    right: 0.75em;
+    width: 0.9em;
+    height: 0.9em;
+    border-radius: 30%;
+}
+
+.trade_page
+    .contents
+    .pool_side
+    .pool
+    .players
+    .scroll
+    .player_position
+    .invest {
+    color: #02ed8e;
+}
+
+.trade_page
+    .contents
+    .pool_side.down
+    .pool
+    .players
+    .scroll
+    .player_position
+    .invest {
+    color: #ff685a;
+}
+
+/* ============== Down ========================= */
+
+.trade_page .contents .pool_side.down .pool {
+    overflow: hidden;
+    box-shadow: 0px 6px 16px 0px rgba(0, 3, 18, 0.5);
+    background-color: rgba(5, 13, 63, 0.6);
+}
+
+.trade_page .contents .pool_side .pool .players {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: calc(100% - 4.2em);
+}
+
+.trade_page .contents .pool_side.down .pool .players::-webkit-scrollbar {
+    width: 9px;
+}
+
+.trade_page .contents .pool_side.down .pool .players::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    border: 2px solid #ff685a;
+    background: #ff685a;
+}
+
+.trade_page .contents .pool_side .pool .players .scroll {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.6em 0.3em;
+}
+
+.trade_page .contents .pool_side .pool .players .scroll .player_position {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32.5%;
+    padding: 0.9vh 0;
+    backface-visibility: visible !important;
+    /* animation: super-flip 0.9s ease; */
+}
+
+.trade_page .contents .pool_side.down .trade_btn {
+    height: 3.8em;
+    width: 100%;
+    border-radius: 0.9em;
+    background: #ff685a;
+    margin-top: 0.8em;
+    box-shadow: 0 0.2em 0 #212121;
+    position: relative;
+    cursor: pointer;
+}
+
+.trade_page .contents .pool_side.down .pool .pool_header .player_num {
+    color: rgb(4, 10, 47);
+    text-align: left;
+    left: 3%;
+    top: 39%;
+    font-size: 1.3em;
+}
+
+.trade_page .contents .pool_side .pool .pool_header .down {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: right;
+    margin-right: -2em;
+}
+
+.trade_page .contents .pool_side.up .pool .players .player_position .invest {
+    color: #02ed8e;
+}
+.trade_page
+    .contents
+    .pool_side
+    .pool
+    .players
+    .scroll
+    .player_position
+    .invest {
+    animation: ease-in 1.1s blink_fade_in_out;
+    margin-top: 0.4em;
+    font-size: 0.9em;
+    line-height: 1.6em;
+    font-weight: 500;
+    transition: color 0.5s;
+}
+
+/* ================== Center ================================ */
+
+.trade_page .contents .trade_center {
+    width: 57.5%;
+    height: 100%;
+    position: relative;
+}
+
+.trade_page .contents .trade_center .market {
+    height: 100%;
+}
+
+.trade_page .contents .trade_center .market .stats {
+    height: 5.4em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    top: 0.5em;
+}
+
+.trade_page .contents .trade_center .market .stats .side.up {
+    text-align: left;
+    align-items: flex-start;
+}
+
+.trade_page .contents .trade_center .market .stats .side {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.trade_page .contents .trade_center .market .stats .side.down .pool_payout {
+    left: 0;
+}
+.trade_page .contents .trade_center .market .stats .side .pool_payout {
+    position: absolute;
+    top: 0em;
+    text-align: center;
+    width: 6.5em;
+}
+
+.trade_page .contents .trade_center .market .stats .side .pool_payout .title {
+    color: #fff;
+
+    font-weight: 500;
+    opacity: 0.7;
+    font-size: 1.6em;
+    /* padding: 0 1.5em; */
+    box-sizing: border-box;
+    letter-spacing: 0.11em;
+    margin: -0.45em 0;
+}
+
+.trade_page .contents .trade_center .market .stats .side .title {
+    opacity: 0.7;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 400;
+    letter-spacing: 0.089em;
+    line-height: 1em;
+    margin: -0.25em 0;
+    width: 200%;
+    transform-origin: 0 50%;
+    transform: scale(0.5);
+}
+
+.trade_page .contents .trade_center .market .stats .side.up .pool_payout {
+    right: 0;
+}
+
+.trade_page .contents .trade_center .market .stats .side .pool_payout .up {
+    color: #02ed8e;
+}
+
+.trade_page .contents .trade_center .market .stats .side .pool_payout .amount {
+    color: #02ed8e;
+    font-size: 2.5em;
+    font-weight: 600;
+    line-height: 1.05em;
+}
+
+.trade_page
+    .contents
+    .trade_center
+    .market
+    .stats
+    .side
+    .pool_payout
+    .amount.down {
+    color: #ff7265;
+    font-size: 2.5em;
+    font-weight: 600;
+    line-height: 1.05em;
+}
+
+.trade_page
+    .contents
+    .trade_center
+    .market
+    .stats
+    .side
+    .pool_payout
+    .amount
+    .sign {
+    font-size: 0.63em;
+    vertical-align: top;
+    position: relative;
+    top: -0.1em;
+}
+
+.trade_page .contents .trade_center .market .stats .side .own_stats {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 15em;
+    height: 4.6em;
+    text-align: left;
+}
+
+.trade_page .contents .trade_center .market .stats .side.down .own_stats {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 15em;
+    height: 4.6em;
+    text-align: right;
+}
+
+.trade_page .contents .trade_center .market .stats .side .own_stats .amount {
+    font-size: 1.5em;
+    line-height: 0.9em;
+    font-weight: 500;
+    color: #fff;
+    transition: all 1s;
+    text-shadow:
+        0 0 0 rgba(244, 213, 111, 0),
+        0 0 0 rgba(244, 213, 111, 0);
+}
+
+.trade_page .contents .trade_center .market .stats .side .own_stats .large_txt {
+    font-size: 1.6em;
+}
+
+/* down */
+
+.trade_page .contents .trade_center .market .stats .side.down {
+    text-align: right;
+    align-items: flex-end;
+}
+
+.trade_page .contents .trade_center .market .stats .side {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/* ===========Timer=========== */
+
+.trade_page .contents .trade_center .market .position_timer {
+    position: absolute;
+    left: calc(50% - 5.25em);
+    top: -0.799999999999997em;
+    width: 10.5em;
+    height: 10.5em;
+    border-radius: 50%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    z-index: 2;
+    color: #f4d56f;
+}
+
+.position_timer .pie {
+    aspect-ratio: 1;
+    position: relative;
+    display: inline-grid;
+    place-content: center;
+    font-weight: bold;
+    /* z-index: 5; */
+}
+.position_timer .pie:before {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    inset: 0;
+    z-index: 3;
+    background-image: linear-gradient(
+        to bottom right,
+        var(--c) 20%,
+        var(--d) 80%
+    );
+    -webkit-mask: conic-gradient(#000 calc(var(--p) * 1%), #0002 0);
+    mask: conic-gradient(#000 calc(var(--p) * 1%), #0002 0);
+}
+
+.dot-elastic {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #9880ff;
+    color: #9880ff;
+    animation: dot-elastic 1s infinite linear;
+}
+
+@keyframes dot-elastic {
+    0% {
+        transform: scale(1, 1);
+    }
+    25% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1, 1.8);
+    }
+    75% {
+        transform: scale(1, 1);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+/* =========================== */
+
+.contents .test {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes example {
+    0% {
+        width: 100%;
+        margin-top: 1.5em;
+        font-size: 3em;
+    }
+    75% {
+        width: 100%;
+        margin-top: 1.5em;
+        font-size: 3em;
+    }
+    100% {
+        width: 30%;
+        margin-top: 0;
+        /* justify-content: left; */
+    }
+}
+
+.trade_page .contents .trade_center .market .graph_area {
+    height: calc(100% - 5.2em);
+    box-shadow: 0px 6px 16px 0px rgba(0, 3, 18, 0.5);
+    /* background-color: rgba(5, 13, 63, 0.6); */
+    background-color: #1d085cd4;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.75em;
+    padding: 0.4em;
+}
+
+.market_label {
+    position: absolute;
+    color: #deea00;
+    min-width: 13.7vw;
+    z-index: 20;
+    animation: 1.5s ease-out 0s 1 center_message;
+}
+
+.market_sm_label {
+    color: #deea00;
+    margin-bottom: 0.1em;
+    font-size: 0.9em;
+    font-weight: 100;
+}
+
+.market_md_label {
+    color: #deea00;
+    font-size: 1.3em;
+    /* margin-bottom: 0.1em; */
+    font-weight: 700;
+    margin-top: 0.1em;
+}
+
+/* ===========BTC Image=========== */
+
+/* .trade_page .contents .trade_center .market .graph_area .asset_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+.trade_page .contents .trade_center .market .graph_area .asset_image img {
+    width: 12.3em;
+    height: 12.3em;
+} */
+
+/* ============================= */
+
+/* ======== Graph Area ========= */
+
+.trade_page .contents .trade_center .market .graph_area .history_graph {
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+    height: 100%;
+    width: 100%;
+}
+
+.trade_page .contents .trade_center .market .graph_area .history_graph img {
+    width: 42.3em;
+    height: 17.3em;
+}
+
+/* ============================ */
+
+/* ======== Bottom JackPot =========== */
+
+.trade_page
+    .contents
+    .trade_center
+    .market
+    .graph_area
+    .content_bottom_jackpot {
+    display: flex;
+}
+
+.trade_page .contents .trade_center .market .graph_area .jackpot .toppurple {
+    display: flex;
+    align-self: center;
+
+    height: 1.6em;
+    background-color: #551ab6;
+    color: white;
+    font-weight: lighter;
+    opacity: 0.8;
+    align-items: center;
+    /* padding-left: 1em; */
+    border-radius: 0.3em 0.3em 0 0;
+}
+
+.trade_page
+    .contents
+    .trade_center
+    .market
+    .graph_area
+    .jackpot
+    .toppurple
+    img {
+    width: 1.8em;
+    height: 1.8em;
+    margin-left: 0.3em;
+    margin-bottom: 1em;
+}
+
+.trade_page .contents .trade_center .market .graph_area .jackpot .bottomblue {
+    color: white;
+    background: linear-gradient(92.7deg, #0064fb 6.15%, #1ecdf8 97.44%);
+    border-radius: 0 0 0.3em 0.3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+.trade_page
+    .contents
+    .trade_center
+    .market
+    .graph_area
+    .jackpot
+    .bottomblue
+    .jackpot_money {
+    width: 1em;
+    height: 1em;
+}
+
+.trade_page
+    .contents
+    .trade_center
+    .market
+    .graph_area
+    .jackpot
+    .bottomblue
+    .jackpot_money_label {
+}
+
+/* =================================== */
+
+/* ================All States=================== */
+
+.trade_page
+    .contents
+    .trade_center
+    .market
+    .graph_area
+    .content_bottom_jackpot
+    .all_states {
+    display: block;
+}
+
+.trade_page
+    .contents
+    .trade_center
+    .market
+    .graph_area
+    .content_bottom_jackpot
+    .web_system_stats {
+    display: flex;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.trade_page
+    .contents
+    .trade_center
+    .market
+    .graph_area
+    .content_bottom_jackpot
+    .web_system_stats
+    .each_state {
+    display: block;
+    font-size: 0.65em;
+    font-weight: 300;
+}
+
+.trade_page
+    .contents
+    .trade_center
+    .market
+    .graph_area
+    .content_bottom_jackpot
+    .web_system_stats
+    .each_state
+    .win {
+    color: white;
+    opacity: 0.5;
+}
+
+.trade_page
+    .contents
+    .trade_center
+    .market
+    .graph_area
+    .content_bottom_jackpot
+    .web_system_stats
+    .each_state
+    .ratio
+    .ratio_label {
+    color: white;
+    opacity: 0.5;
+}
+
+/*  */
+
+.trade_page
+    .contents
+    .trade_center
+    .market
+    .graph_area
+    .content_bottom_jackpot
+    .web_system_stats
+    .each_state
+    .ratio
+    .ratio_number {
+    color: white;
+    opacity: 1;
+    font-size: 1.1em;
+    margin-left: 2.5em;
+}
+
+.trade_page
+    .contents
+    .trade_center
+    .market
+    .graph_area
+    .content_bottom_jackpot
+    .web_system_stats
+    .border_row_line {
+    align-self: center;
+    height: 2em;
+    border: 0.5px;
+    background: white;
+    border: 0.2px solid;
+    border-image-source: linear-gradient(
+        270deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.47) 51%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    transform: rotate(90);
+    opacity: 0.4;
+    margin-left: 0.6em;
+    margin-right: 0.6em;
+}
+
+.trade_page
+    .contents
+    .trade_center
+    .market
+    .graph_area
+    .content_bottom_jackpot
+    .web_system_stats
+    .each_state
+    .paid_dollar {
+    width: 0.8em;
+    height: 0.8em;
+}
+
+/*
+    State Button
+*/
+
+.trade_page
+    .contents
+    .trade_center
+    .market
+    .graph_area
+    .content_bottom_jackpot
+    .results {
+    display: flex;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    margin-top: 0.2em;
+}
+
+.trade_page
+    .contents
+    .trade_center
+    .market
+    .graph_area
+    .content_bottom_jackpot
+    .btn_purple {
+    display: flex;
+    border-radius: 0.3em;
+    background-color: #282176;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.trade_page
+    .contents
+    .trade_center
+    .market
+    .graph_area
+    .content_bottom_jackpot
+    .btn_purple
+    img {
+    width: 1.1em;
+    height: 1.1em;
+}
+
+/* =================================== */
+
+@keyframes fade-left1 {
+    0% {
+        opacity: 1;
+        transform: translateX(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.animate-fade-left1 {
+    animation: fade-left1 1.5s both;
+}
+
+.w-fit[data-testid='flowbite-tooltip-target'] {
+    width: 100%;
+}
+
+/* ================Invest Number============= */
+
+.trade_page .contents .trade_center .market .graph_area .invest_select {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trade_page
+    .contents
+    .trade_center
+    .market
+    .graph_area
+    .invest_select
+    .invest_btn {
+    border: 0.1em solid #fff;
+    /* background-color: inherit; */
+    color: #fff;
+    border-radius: 0.25em;
+    text-align: center;
+
+    height: 2.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.trade_page
+    .contents
+    .trade_center
+    .market
+    .graph_area
+    .invest_select
+    .invest_btn
+    p {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.trade_page
+    .contents
+    .trade_center
+    .market
+    .graph_area
+    .invest_select
+    .invest_btn:hover {
+    scale: 1.1;
+    opacity: 0.95;
+}
+
+.trade_page
+    .contents
+    .trade_center
+    .market
+    .graph_area
+    .invest_select
+    .invest_btn:active {
+    background: linear-gradient(92.7deg, #0064fb 6.15%, #1ecdf8 97.44%),
+        linear-gradient(0deg, #000000, #000000);
+    border: none;
+}
+
+.trade_page
+    .contents
+    .trade_center
+    .market
+    .graph_area
+    .invest_select
+    .invest_btn_active {
+    background: linear-gradient(92.7deg, #0064fb 6.15%, #1ecdf8 97.44%),
+        linear-gradient(0deg, #000000, #000000);
+    border: none;
+}
+
+.trade_page .contents .trade_center .market .graph_area .state_info {
+    position: absolute;
+    bottom: 0.5em;
+}
+
+/* ==================================== */
+
+.rocket_popUp .divide_line {
+    background-image: linear-gradient(
+            90deg,
+            transparent,
+            transparent 50%,
+            #050d3f 50%,
+            #050d3f 100%
+        ),
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(255, 255, 255, 0.486),
+            transparent
+        );
+    background-size:
+        0.3em 0.1em,
+        100% 0.1em;
+    border: none;
+}
+
+/* ========= PopOver ============= */
+div.rocket_popUp {
+    background-color: #050d3f;
+    color: #fff;
+    text-align: center;
+    border-radius: 0.5em;
+    padding: 0.5em 0.5em;
+    bottom: 125%;
+
+    /* left: 50%; */
+}
+
+.btn_pop {
+    margin: auto;
+    padding: 0.3em 0.6em;
+    background: linear-gradient(92.7deg, #0064fb 6.15%, #1ecdf8 97.44%);
+    color: white;
+
+    border-radius: 0.4em;
+    cursor: pointer;
+    font-size: 0.7em;
+}
+
+span.pop_label {
+    color: #7786cb;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 0.5em;
+    margin-top: 0.5em;
+}
+
+span.pop_label_up_number {
+    text-align: center;
+
+    color: #00bb5c;
+    font-size: 0.8em;
+    font-weight: 900;
+}
+
+span.pop_label_down_number {
+    text-align: center;
+
+    color: #ff7265;
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+.rocket_popUp::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -8px;
+    border-width: 9px;
+    border-style: solid;
+    border-color: #050d3f transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+/* .rocket_popUp .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+} */
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/* ====================== */
+
+/* ==================================================== */
+
+/* --------------------------------------------------------------------------------------- */
+/* .ping-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.animate-ping {
+    background: #fff;
+    border-radius: 50%;
+    border: 50px solid #222;
+    width: 20px;
+    height: 20px;
+    animation: load 1.5s ease-out infinite;
+}
+
+@keyframes load {
+    0% {
+        background: #fff;
+        border: 0px solid #fff;
+   }
+    50% {
+        background: #fff;
+        border: 100px solid #222;
+   }
+    100% {
+        background: #fff;
+        border: 0px solid #222;
+   }
+} */

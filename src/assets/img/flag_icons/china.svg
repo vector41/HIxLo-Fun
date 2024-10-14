@@ -1,0 +1,37 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient x1="14.645%" y1="14.645%" x2="85.355%" y2="85.355%" id="advtig2r1a">
+            <stop stop-color="#F44F5A" offset="0%"/>
+            <stop stop-color="#EE3D4A" offset="44.3%"/>
+            <stop stop-color="#E52030" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="0%" y1="49.996%" x2="100%" y2="49.996%" id="j03d6eg4fb">
+            <stop stop-color="#FEDE00" offset="0%"/>
+            <stop stop-color="#FFD000" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="0%" y1="49.987%" x2="100%" y2="49.987%" id="4d2rd89dnc">
+            <stop stop-color="#FEDE00" offset="0%"/>
+            <stop stop-color="#FFD000" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50.012%" x2="100%" y2="50.012%" id="12dtfj7brd">
+            <stop stop-color="#FEDE00" offset="0%"/>
+            <stop stop-color="#FFD000" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="xuuneswppe">
+            <stop stop-color="#FEDE00" offset="0%"/>
+            <stop stop-color="#FFD000" offset="100%"/>
+        </linearGradient>
+        <linearGradient x1="0%" y1="49.988%" x2="100%" y2="49.988%" id="yi9jqg80lf">
+            <stop stop-color="#FEDE00" offset="0%"/>
+            <stop stop-color="#FFD000" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <g fill-rule="nonzero" fill="none">
+        <path d="M32 16c0 8.836-7.164 16-16 16S0 24.836 0 16 7.164 0 16 0s16 7.164 16 16z" fill="url(#advtig2r1a)"/>
+        <path fill="url(#j03d6eg4fb)" d="m7.286 10.65 1.16 3.568h3.752l-3.036 2.204 1.16 3.57-3.036-2.206-3.035 2.205 1.16-3.569-3.035-2.204h3.751z"/>
+        <path fill="url(#4d2rd89dnc)" d="m19.38 17.522.435 1.19 1.267-.047-.997.782.436 1.19-1.052-.707-.998.783.347-1.22-1.052-.706 1.267-.047z"/>
+        <path fill="url(#12dtfj7brd)" d="m18.674 12.509.881.911 1.139-.557-.594 1.12.88.91-1.247-.218-.595 1.12-.177-1.256-1.248-.218 1.138-.557z"/>
+        <path fill="url(#xuuneswppe)" d="m14.643 9.447 1.163.502.838-.951-.118 1.261 1.164.503-1.237.277-.118 1.263-.646-1.09-1.237.277.838-.951z"/>
+        <path fill="url(#yi9jqg80lf)" d="m16.575 21.135-.05 1.267 1.19.438-1.22.344-.049 1.267-.704-1.053-1.22.344.784-.996-.704-1.053 1.19.438z"/>
+    </g>
+</svg>
