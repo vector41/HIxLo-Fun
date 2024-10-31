@@ -33,3 +33,9 @@ export default {
 -   Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
 demo link: https://upvsdown.com/trade
+
+
+<video controls autoplay>
+    <source src="./HIxLO.mp4" type="video/mp4">
+</video>
+
